@@ -1,0 +1,94 @@
+.doughnut__graph-container {
+  padding: 2rem;
+  background-color: #fff;
+  border-radius: 8px;
+}
+.customers {
+  padding: 1.4rem 0;
+}
+.doughnut-graph {
+  padding: 3rem 0;
+}
+
+
+.doughnut-graph-header p {
+  color: #bdbdbd;
+  margin-top: -15px;
+  margin-bottom: 10px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+/* .doughnut-graph {
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+} */
+
+.progress-bar-container {
+  /* width: 250px;
+  height: 250px; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #ffffff;
+  border-radius: 100%;
+}
+
+.progress-bar-blue {
+  width: 180px;
+  height: 180px;
+  position: relative;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.blueBar {
+  background: radial-gradient(
+      closest-side,
+      white 59%,
+      transparent 30% 100%,
+      white 0
+    ),
+    conic-gradient(blue 0deg, blue 70deg, blue 70deg, blue 231deg, #f0eefb 0);
+}
+
+.pink-bar {
+  position: absolute;
+  top: -2px;
+  left: 34px;
+  width: 0;
+  height: 0;
+  border-left: 75px solid transparent;
+  border-right: 75px solid transparent;
+  border-top: 120px solid #f23798;
+  border-radius: 50%;
+  border-bottom: 76px;
+  transform: rotate(31deg);
+  /* z-index: 0; */
+}
+
+.text-container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  background-color: white;
+  /* z-index: 1; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.text-container h3,
+p {
+  margin: 0px;
+  padding: 0px;
+}
